@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #23252C;
+  color: #fff;
+}
+
+.profile-card {
+  background-color: #1A1B21;
+  max-width: 320px;
+  margin-top: 2rem;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.job {
+  color: #F3BF99;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.profile-card p {
+  color: #DCDCDC;
+  max-width: 320px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  padding: 10px;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 33px 11px;
+  gap: 17px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.email {
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.linkedIn {
+  background: #5093E2;
+  color: #fff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.content {
+  background-color: #1A1B21;
+  color: #DCDCDC;
+  max-width: 320px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.content > div {
+  padding: 10px 35px;
+}
+
+.icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 24px;
+  background-color: #161619;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-bottom: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
